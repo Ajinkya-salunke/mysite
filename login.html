@@ -1,0 +1,62 @@
+<html>
+<head>
+	<div><img src="img.jfif" style="height: 110px;
+	width: 100%;"></div>
+	<title>My Page Login</title>
+	<script type="text/javascript">
+		login=function(){
+			debugger;
+			var name=(document.getElementById"name").value;
+			var password=(document.getElementById"password").value;
+			if(name==undefined||name===""){
+				alert("Please Enter user name");
+			}
+			
+		};
+	</script>
+</head>
+<BODY>
+<marquee style="color: green"> Login Page</marquee>
+<!-- Menu bar-->
+<div style="background-color:  skyblue">
+	<a class="active" href="login.html" style="margin-right: 100px;">Login</a>
+	<a class="active" href="register.html"style="margin-right: 100px;">Register</a>
+	<a class="active" href="Projects.html"style="margin-right: 100px;">Projects</a>
+	<a class="active" href="About us.html"style="margin-right: 100px;">About us</a>
+	<a class="active" href="Gallery.html"style="margin-right: 100px;">Gallery</a>
+	<a class="active" href="Contact.html"style="margin-right: 100px;">Contact</a>
+</div>
+<!--Content-->
+<div style="content: "";display: table;clear: both;">
+	<div style="float: left;width: 10%"><font size="6"> Welcome to login page </font></div>
+	<div style="float: left;width: 80%">
+		<table align="center">
+			<tr>
+				<td>
+					<span style="color:red">Enter User NAMe</span>
+				</td>
+				<td><input type="text" id="name"></div></td>
+			</tr>
+			<tr>
+				<td>
+					<div style="color: green">Enter Password</div>
+				</td>
+				<td><div><input type="Password"/ id="password"></div></td>
+			</tr>
+			<tr><td><div><a href="Submit.html"><button style="background-color: yellow"
+				style="box-shadow: 60px" onclick="login();"> Submit </button></td></div></tr></a>
+			</table>
+		</div>
+		<div style="float: left;width: 10%"></div>
+	</div>
+	<!--Footer-->
+	<div style="content: "";display: table;clear: both;">
+		<footer style="left:0;height:6%;text-align:center;
+		background: orange;
+		bottom: 5;
+		position: fixed;
+		width: 100%;" >Ajinkya solutions pvt. ltd</footer>
+	</div>
+</BODY>
+</html>
+
